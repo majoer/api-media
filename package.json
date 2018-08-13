@@ -1,0 +1,25 @@
+{
+  "name": "api-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e js,json,env src/scripts/dev.js",
+    "start": "node src/scripts/start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "imdb-api": "^4.0.2",
+    "lodash": "^4.17.10",
+    "node-log": "git+https://github.com/majoer/node-log.git",
+    "rimraf": "^2.6.2",
+    "text-diff": "^1.0.1"
+  }
+}
