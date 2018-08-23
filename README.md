@@ -1,6 +1,11 @@
-# Media API
+# API - Media
 
 Requires Node 10
+
+## NPM Scripts
+
+- `npm start` - Starts the development server
+- `npm run start-production` - Starts the production server
 
 ## Endpoints
 
