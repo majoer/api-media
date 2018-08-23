@@ -6,6 +6,7 @@ const imdbController = require('./controller/imdb-controller');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
+const INTERFACE = process.env.EXPRESS_INTERFACE;
 const PORT = process.env.EXPRESS_PORT;
 
 class Api {
@@ -21,8 +22,8 @@ class Api {
     genreController(this.app);
     imdbController(this.app);
 
-    log(`Listening on 0.0.0.0:${PORT}`);
-    this.app.listen(PORT, '0.0.0.0');
+    log(`Listening on ${INTERFACE}:${PORT}`);
+    this.app.listen(PORT, INTERFACE);
   }
 
 }
