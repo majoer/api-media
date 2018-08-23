@@ -1,6 +1,8 @@
-## Media API
+# Media API
 
-#### Endpoints
+Requires Node 10
+
+## Endpoints
 
 - GET /media/series
   - GET /media/series/:series
